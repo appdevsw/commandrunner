@@ -2,7 +2,7 @@
  * CommandRunner Cinnamon applet
  * 
  * author : appdevsw@wp.pl
- * version: 1.0
+ * version: 1.1
  * Applet runs a given command/script/application periodically and displays its results from stdout on the taskbar
  * 
  */

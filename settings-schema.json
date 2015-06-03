@@ -6,7 +6,7 @@
 	"form_command": {
 		"type": "entry",
 		"description": "Command",
-		"default": "$appletdir$/cmdrun0.sh \"$counter$\" \"$appletdir$\"",
+		"default": "echo  \"Hello $counter$\"",
 		"tooltip": "Command or script or applitaction to run.\ne.g.\n /home/user/myscript.sh\n echo Hello\n\nThe command should print the result to the standard output, which will be displayed on the taskbar.\n\nYou can use predefined parameters:\n $counter$ - number of command executions\n $appletdir$ - applet directory\n\n  e.g. echo \"I was executed $counter$ times\""
 	},
 	"form_prefix": {
